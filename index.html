@@ -1,111 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Примеры TTS</title>
+  <style>
+    body {
+      margin: 0% 15%;
+      padding: 50px 30px;
+      background: #fff;
+      color: #111;
+      font-size: 17px;
+      font-family: sans-serif;
+      font-weight: 400;
+      line-height: 1.8;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1 {
+      font-size: 1.75em;
+    }
+
+    h2 {
+      margin-bottom: 0.4em;
+    }
+
+    hr {
+      height: 0.5px;
+      border-width: 0;
+      color: lightgray;
+      background-color: lightgray
+    }
+
+    table {
+      width: 100%;
+    }
+
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
 <h1>Примеры tts</h1>
-<h2> Уменьшаю скорость чтения цифр </h2>
+<h2>Меньше скорость чтения цифр</h2>
 <table style="width:100%">
   <tr>
-    <td>   </td>
-    <td>Rate: 0</td>
-    <td>Rate: -10%</td>
-    <td>Rate: -20%</td>
-    <td>Rate: -30%</td>
-    <td>Rate: -40%</td>
+      <th style="text-align: center">Rate 0</th>
+      <th style="text-align: center">Rate -5%</th>
+      <th style="text-align: center">Rate -10%</th>
+      <th style="text-align: center">Rate -15%</th>
+      <th style="text-align: center">Rate -20%</th>
+      <th style="text-align: center">Rate -25%</th>
+      <th style="text-align: center">Rate -30%</th>
+      <th style="text-align: center">Rate -35%</th>
+      <th style="text-align: center">Rate -40%</th>
   </tr>
   <tr>
-    <td>Pitch: 0</td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./0r_0p.wav" autoplay />
+          <source src="./0.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-10r_0p.wav" autoplay />
+          <source src="./-5.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-20r_0p.wav" autoplay />
+          <source src="./-10.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-30r_0p.wav" autoplay />
+          <source src="./-15.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-40r_0p.wav" autoplay />
-        </audio></td>
-  </tr>
-  <tr>
-    <td>Pitch: +10%</td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./0r_10p.wav" autoplay />
+          <source src="./-20.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-10r_10p.wav" autoplay />
+          <source src="./-25.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-20r_10p.wav" autoplay />
+          <source src="./-30.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-30r_10p.wav" autoplay />
+          <source src="./-35.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-40r_10p.wav" autoplay />
+          <source src="./-40.wav" autoplay />
         </audio></td>
   </tr>
+  
+</table>
+  
+<h2>Меньше общая скорость чтения</h2>
+<table style="width:100%">
   <tr>
-    <td>Pitch: +20%</td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./0r_20p.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./-10r_20p.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./-20r_20p.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./-30r_20p.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./-40r_20p.wav" autoplay />
-        </audio></td>
+      <th style="text-align: center">Rate 0</th>
+      <th style="text-align: center">Rate -5%</th>
+      <th style="text-align: center">Rate -10%</th>
+      <th style="text-align: center">Rate -15%</th>
+      <th style="text-align: center">Rate -20%</th>
+      <th style="text-align: center">Rate -25%</th>
+      <th style="text-align: center">Rate -30%</th>
+      <th style="text-align: center">Rate -35%</th>
+      <th style="text-align: center">Rate -40%</th>
   </tr>
   <tr>
-    <td>Pitch: +30%</td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./0r_30p.wav" autoplay />
+          <source src="./0_full.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-10r_30p.wav" autoplay />
+          <source src="./-5_full.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-20r_30p.wav" autoplay />
+          <source src="./-10_full.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-30r_30p.wav" autoplay />
+          <source src="./-15_full.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-40r_30p.wav" autoplay />
-        </audio></td>
-  </tr>
-  <tr>
-    <td>Pitch: +40%</td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./0r_40p.wav" autoplay />
+          <source src="./-20_full.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-10r_40p.wav" autoplay />
+          <source src="./-25_full.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-20r_40p.wav" autoplay />
+          <source src="./-30_full.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-30r_40p.wav" autoplay />
+          <source src="./-35_full.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./-40r_40p.wav" autoplay />
+          <source src="./-40_full.wav" autoplay />
         </audio></td>
   </tr>
 </table>
 
-<h2> Паузы между числами? </h2>
+<h2>Дополнительные паузы между числами?</h2>
 <table>
   <tr>
-    <td>Без паузы </td>
-    <td>С паузой </td>
+    <th style="text-align: center"> Без паузы </th>
+    <th style="text-align: center">С паузой </th>
   </tr>
   <tr>
     <td style="text-align: center"><audio controls="controls">
@@ -132,11 +167,12 @@
         </audio></td>
   </tr>  
 </table>
+  
 <h2> Компрессия в 8кГц? </h2>
 <table>
   <tr>
-    <td>Без компрессии </td>
-    <td>С компрессией </td>
+    <th style="text-align: center"> Без компрессии </th>
+    <th style="text-align: center"> С компрессией </th>
   </tr>
   <tr>
     <td style="text-align: center"><audio controls="controls">
@@ -166,16 +202,36 @@
 <h2> Пауза перед записью? </h2>
 <table>
   <tr>
-    <td>Без паузы </td>
-    <td>С паузой </td>
+    <th style="text-align: center"> Без паузы </th>
+    <th style="text-align: center"> Пауза 250 мс </th>
+    <th style="text-align: center"> Пауза 500 мс </th>
+    <th style="text-align: center"> Пауза 750 мс </th>
+    <th style="text-align: center"> Пауза 1000 мс </th>
+    <th style="text-align: center"> Пауза 1500 мс </th>
+    <th style="text-align: center"> Пауза 2000 мс </th>
   </tr>
   <tr>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./no_pause_1.mp3" autoplay />
+          <source src="./no_pause.mp3" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./pause_1.mp3" autoplay />
+          <source src="./pause_250.mp3" autoplay />
+        </audio></td>
+    <td style="text-align: center"><audio controls="controls">
+          <source src="./pause_500.mp3" autoplay />
+        </audio></td>
+    <td style="text-align: center"><audio controls="controls">
+          <source src="./pause_750.mp3" autoplay />
+        </audio></td>
+    <td style="text-align: center"><audio controls="controls">
+          <source src="./pause_1000.mp3" autoplay />
+        </audio></td>
+    <td style="text-align: center"><audio controls="controls">
+          <source src="./pause_1500.mp3" autoplay />
+        </audio></td>
+    <td style="text-align: center"><audio controls="controls">
+          <source src="./pause_2000.mp3" autoplay />
         </audio></td>
   </tr>
-  
 </table>
+</body>
