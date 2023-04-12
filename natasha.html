@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Примеры TTS</title>
+  <title>TTS на датасете "Наташа"</title>
   <style>
     body {
       margin: 0% 0%;
@@ -46,192 +46,90 @@
 
 <body>
 
-<h1>Примеры tts</h1>
-<h2>Меньше скорость чтения цифр</h2>
+<h1>Один датасет для синтеза речи -- разные модели</h1>
+<p>* Т.к. оригинальные записи были в обучающей выборке, то для сравнения синтеза поменял тексты.</p>
+<p>** Тексты передаются в модели "как есть", т.е без ручных ударений и нормализации.</p>
 <table style="width:100%">
   <tr>
-      <th style="text-align: center">Rate 0</th>
-      <th style="text-align: center">Rate -5%</th>
-      <th style="text-align: center">Rate -10%</th>
-      <th style="text-align: center">Rate -15%</th>
-      <th style="text-align: center">Rate -20%</th>
-      <th style="text-align: center">Rate -25%</th>
-      <th style="text-align: center">Rate -30%</th>
-      <th style="text-align: center">Rate -35%</th>
-      <th style="text-align: center">Rate -40%</th>
+      <th style="text-align: center">Оригинал</th>
+      <th style="text-align: center">SOVA (2017)</th>
+      <th style="text-align: center">VITS (2021)</th>
   </tr>
   <tr>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/0.wav" autoplay />
+          <source src="./natasha_examples/000410.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-5.wav" autoplay />
+          <source src="./natasha_examples/sova_1.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-10.wav" autoplay />
+          <source src="./natasha_examples/vits_1.wav" autoplay />
+        </audio></td>
+  </tr>
+    <tr>
+      <th style="text-align: center"></th>
+      <th colspan="2">Добрый день. Сообщаем вам о наличии задолжности перед ОА - О Рога и копыта.</th>
+  </tr>
+    <tr>
+    <td style="text-align: center"><audio controls="controls">
+          <source src="./natasha_examples/001825.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-15.wav" autoplay />
+          <source src="./natasha_examples/sova_2.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-20.wav" autoplay />
+          <source src="./natasha_examples/vits_2.wav" autoplay />
+        </audio></td>
+  </tr>
+    <tr>
+      <th style="text-align: center"></th>
+      <th colspan="2">Для формирования журналов учёта отходов, просим предоставить Вас договоры на вывоз отходов.</th>
+  </tr>
+    <tr>
+    <td style="text-align: center"><audio controls="controls">
+          <source src="./natasha_examples/003658.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-25.wav" autoplay />
+          <source src="./natasha_examples/sova_3.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-30.wav" autoplay />
+          <source src="./natasha_examples/vits_3.wav" autoplay />
+        </audio></td>
+  </tr>
+    <tr>
+      <th style="text-align: center"></th>
+      <th colspan="2">А также счета и акты по договорам об отключении подключения.</th>
+  </tr>
+    <tr>
+    <td style="text-align: center"><audio controls="controls">
+          <source src="./natasha_examples/008936.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-35.wav" autoplay />
+          <source src="./natasha_examples/sova_4.wav" autoplay />
         </audio></td>
     <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-40.wav" autoplay />
+          <source src="./natasha_examples/vits_4.wav" autoplay />
         </audio></td>
+  </tr>
+    <tr>
+      <th style="text-align: center"></th>
+      <th colspan="2">Для получения консультации, обратитесь по номеру телефона</th>
+  </tr>
+    <tr>
+    <td style="text-align: center"><audio controls="controls">
+          <source src="./natasha_examples/011088.wav" autoplay />
+        </audio></td>
+    <td style="text-align: center"><audio controls="controls">
+          <source src="./natasha_examples/sova_5.wav" autoplay />
+        </audio></td>
+    <td style="text-align: center"><audio controls="controls">
+          <source src="./natasha_examples/vits_5.wav" autoplay />
+        </audio></td>
+  </tr>
+    <tr>
+      <th style="text-align: center"></th>
+      <th colspan="2">Информируем вас, о том что подключение произведено</th>
   </tr>
 
-</table>
-
-<h2>Меньше общая скорость чтения</h2>
-<table style="width:100%">
-  <tr>
-      <th style="text-align: center">Rate 0</th>
-      <th style="text-align: center">Rate -5%</th>
-      <th style="text-align: center">Rate -10%</th>
-      <th style="text-align: center">Rate -15%</th>
-      <th style="text-align: center">Rate -20%</th>
-      <th style="text-align: center">Rate -25%</th>
-      <th style="text-align: center">Rate -30%</th>
-      <th style="text-align: center">Rate -35%</th>
-      <th style="text-align: center">Rate -40%</th>
-  </tr>
-  <tr>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/0_full.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-5_full.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-10_full.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-15_full.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-20_full.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-25_full.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-30_full.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-35_full.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/-40_full.wav" autoplay />
-        </audio></td>
-  </tr>
-</table>
-
-<h2>Дополнительные паузы между числами?</h2>
-<table>
-  <tr>
-    <th style="text-align: center"> Без паузы </th>
-    <th style="text-align: center">С паузой </th>
-  </tr>
-  <tr>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/num_no_pause_1.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/num_pause_1.wav" autoplay />
-        </audio></td>
-  </tr>
-  <tr>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/num_no_pause_2.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/num_pause_2.wav" autoplay />
-        </audio></td>
-  </tr>
-  <tr>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/num_no_pause_3.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/num_pause_3.wav" autoplay />
-        </audio></td>
-  </tr>
-</table>
-
-<h2> Компрессия в 8кГц? </h2>
-<table>
-  <tr>
-    <th style="text-align: center"> Без компрессии </th>
-    <th style="text-align: center"> С компрессией </th>
-  </tr>
-  <tr>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/no_comp_1.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/comp_1.wav" autoplay />
-        </audio></td>
-  </tr>
-  <tr>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/no_comp_2.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/comp_2.wav" autoplay />
-        </audio></td>
-  </tr>
-  <tr>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/no_comp_3.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/comp_3.wav" autoplay />
-        </audio></td>
-  </tr>
-  </table>
-<h2> Пауза перед записью? </h2>
-<table>
-  <tr>
-    <th style="text-align: center"> Без паузы </th>
-    <th style="text-align: center"> Пауза 250 мс </th>
-    <th style="text-align: center"> Пауза 500 мс </th>
-    <th style="text-align: center"> Пауза 750 мс </th>
-    <th style="text-align: center"> Пауза 1000 мс </th>
-    <th style="text-align: center"> Пауза 1500 мс </th>
-    <th style="text-align: center"> Пауза 2000 мс </th>
-  </tr>
-  <tr>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/pause_0.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/pause_250.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/pause_500.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/pause_750.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/pause_1000.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/pause_1500.wav" autoplay />
-        </audio></td>
-    <td style="text-align: center"><audio controls="controls">
-          <source src="./sova_examples/pause_2000.wav" autoplay />
-        </audio></td>
-  </tr>
 </table>
 </body>
